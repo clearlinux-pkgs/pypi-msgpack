@@ -4,7 +4,7 @@
 #
 Name     : pypi-msgpack
 Version  : 1.0.3
-Release  : 26
+Release  : 27
 URL      : https://files.pythonhosted.org/packages/61/3c/2206f39880d38ca7ad8ac1b28d2d5ca81632d163b2d68ef90e46409ca057/msgpack-1.0.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/61/3c/2206f39880d38ca7ad8ac1b28d2d5ca81632d163b2d68ef90e46409ca057/msgpack-1.0.3.tar.gz
 Summary  : MessagePack (de)serializer.
@@ -14,9 +14,6 @@ Requires: pypi-msgpack-license = %{version}-%{release}
 Requires: pypi-msgpack-python = %{version}-%{release}
 Requires: pypi-msgpack-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: msgpack
-Provides: msgpack-python
-Provides: msgpack-python3
 
 %description
 # MessagePack for Python
@@ -59,7 +56,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641456475
+export SOURCE_DATE_EPOCH=1650929968
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
