@@ -1,5 +1,5 @@
 PKG_NAME := pypi-msgpack
-URL = https://files.pythonhosted.org/packages/dc/a1/eba11a0d4b764bc62966a565b470f8c6f38242723ba3057e9b5098678c30/msgpack-1.0.5.tar.gz
+URL = https://files.pythonhosted.org/packages/ea/bf/47afb03ba397adced887ccc4adf2e7b7e8c59b220f5a25d6c99bdd03565e/msgpack-1.0.6.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
