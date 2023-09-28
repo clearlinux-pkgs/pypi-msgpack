@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-msgpack
-Version  : 1.0.6
-Release  : 42
-URL      : https://files.pythonhosted.org/packages/ea/bf/47afb03ba397adced887ccc4adf2e7b7e8c59b220f5a25d6c99bdd03565e/msgpack-1.0.6.tar.gz
-Source0  : https://files.pythonhosted.org/packages/ea/bf/47afb03ba397adced887ccc4adf2e7b7e8c59b220f5a25d6c99bdd03565e/msgpack-1.0.6.tar.gz
+Version  : 1.0.7
+Release  : 43
+URL      : https://files.pythonhosted.org/packages/c2/d5/5662032db1571110b5b51647aed4b56dfbd01bfae789fa566a2be1f385d1/msgpack-1.0.7.tar.gz
+Source0  : https://files.pythonhosted.org/packages/c2/d5/5662032db1571110b5b51647aed4b56dfbd01bfae789fa566a2be1f385d1/msgpack-1.0.7.tar.gz
 Summary  : MessagePack serializer
 Group    : Development/Tools
 License  : Apache-2.0
@@ -54,10 +54,10 @@ python3 components for the pypi-msgpack package.
 
 
 %prep
-%setup -q -n msgpack-1.0.6
-cd %{_builddir}/msgpack-1.0.6
+%setup -q -n msgpack-1.0.7
+cd %{_builddir}/msgpack-1.0.7
 pushd ..
-cp -a msgpack-1.0.6 buildavx2
+cp -a msgpack-1.0.7 buildavx2
 popd
 
 %build
@@ -65,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1695308565
+export SOURCE_DATE_EPOCH=1695915528
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
 export FCFLAGS="$FFLAGS -fdebug-types-section -femit-struct-debug-baseonly -fno-lto -g1 -gno-column-info -gno-variable-location-views -gz=zstd "
