@@ -5,7 +5,7 @@
 #
 Name     : pypi-msgpack
 Version  : 1.0.7
-Release  : 44
+Release  : 45
 URL      : https://files.pythonhosted.org/packages/c2/d5/5662032db1571110b5b51647aed4b56dfbd01bfae789fa566a2be1f385d1/msgpack-1.0.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c2/d5/5662032db1571110b5b51647aed4b56dfbd01bfae789fa566a2be1f385d1/msgpack-1.0.7.tar.gz
 Summary  : MessagePack serializer
